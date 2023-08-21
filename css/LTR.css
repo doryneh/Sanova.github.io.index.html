@@ -1,0 +1,1279 @@
+@font-face {
+    font-family: HT;
+    src: url(../fonts/HTBaybarsDisplay-Regular.otf);
+}
+
+body {
+    direction: ltr;
+    font-family: HT;
+    overflow-x: hidden;
+
+}
+
+
+
+/*************
+*************
+Navar
+**************
+**************/
+nav.navbar {
+    background-color: #131313;
+}
+
+nav.navbar .navbar-brand img, nav.navbar .navbar-brand {
+    mix-blend-mode: lighten;
+}
+
+nav.navbar .navbar-collapse .navbar-nav .nav-link {
+    color: #DADADA;
+    margin-right: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    width: fit-content;
+    z-index: 300000;
+}
+
+nav.navbar .navbar-collapse .navbar-nav .nav-link.active, nav.navbar .navbar-collapse .navbar-nav .nav-link:hover, nav.navbar .form-select:hover {
+    color: white;
+    position: relative;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+
+nav.navbar .navbar-collapse .navbar-nav .nav-link.active .roundedActiveLink, nav.navbar .navbar-collapse .navbar-nav .nav-link:hover .roundedActiveLink {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #C5B2A3;
+    position: absolute;
+    right: 50%;
+    bottom: -5%;
+    transform: translateX(50%);
+}
+
+nav.navbar .form-select {
+    width: fit-content;
+    background-color: transparent;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    color: #DADADA;
+    box-shadow: none;
+
+
+}
+
+nav.navbar .form-select option {
+    color: black;
+}
+
+nav.navbar .navbar-toggler {
+    color: white;
+    border: none;
+    box-shadow: none;
+    font-size: 24px;
+}
+
+nav.navbar .sideNavButtons select {
+    opacity: 0;
+    visibility: hidden;
+}
+
+/*************
+*************
+End Navar
+**************
+**************/
+
+
+/*************
+*************
+Header
+**************
+**************/
+header.header {
+    background-image: url(../images/Banner\ Bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+header.header .MiddlePattern {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+
+header.header .MiddlePattern.BigPatternBanner {
+    width: 50%;
+}
+
+header.header .SidePattern {
+    position: absolute;
+    bottom: 5%;
+    left: -10%;
+}
+
+header.header .HeaderText img {
+    mix-blend-mode: lighten;
+    width: 50%;
+}
+
+header.header .HeaderText h1 {
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 78px;
+    color: white;
+    margin: 30px 0;
+}
+
+header.header .HeaderText h1 span {
+    color: #C5B2A3;
+}
+
+header.header .HeaderText h2 {
+    font-size: 24px;
+    line-height: 150%;
+
+    font-weight: 800;
+    color: #DADADA;
+}
+
+header.header .HeaderText a.ServicesLink, section.ContactU .formPart form button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    color: #131313;
+    background: #C5B2A3;
+    gap: 8px;
+    text-decoration: none;
+    padding: 15px 35px;
+    margin-top: 20px;
+    transition: 0.5s ease all;
+    overflow: hidden;
+    border: none;
+}
+
+header.header .HeaderText a.ServicesLink svg, section.ContactU .formPart form button svg {
+    transition: 0.5s ease all;
+
+}
+
+section.ContactU .formPart form button {
+    border: 2px solid #C5B2A3;
+}
+
+header.header .HeaderText a:hover, section.ContactU .formPart form button:hover {
+    background-color: white;
+    color: #C5B2A3;
+
+
+}
+
+header.header .HeaderText a:hover svg, section.ContactU .formPart form button:hover svg {
+    transform: translateX(300%);
+}
+
+header.header .ImagePart {
+    position: relative;
+}
+
+header.header .ImagePart img {
+    z-index: 100;
+    width: 90%;
+    z-index: 2050;
+
+}
+
+header.header .ImagePart .pinkRectangle {
+    background: #C5B2A3;
+    position: absolute;
+    width: 73%;
+    height: 130px;
+    bottom: 4%;
+
+    right: 0%;
+
+}
+
+header.header .blueRectangle {
+    background: #4762B3;
+    position: absolute;
+    width: 230px;
+    height: 95%;
+    top: 0%;
+    right: 15%;
+    z-index: 2000;
+}
+
+/*************
+*************
+end Header
+**************
+**************/
+
+/*************
+*************
+About Us
+**************
+**************/
+section.AboutUs {
+    position: relative;
+}
+
+section.AboutUs .Title, section.Sponsers .Title,section.BlogCards .Title {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    color: #131313;
+
+}
+
+section.AboutUs p {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #494949;
+    width: 66%;
+}
+
+
+
+section.AboutUs .ImgRow {
+    z-index: 10;
+    position: relative;
+}
+
+section.AboutUs .SidePattern {
+    position: absolute;
+    left: -6%;
+    top: 15%;
+    z-index: 0;
+}
+
+section.AboutUs .SidePatternTwo {
+    position: absolute;
+    right: 6%;
+    top: 25%;
+    z-index: 0;
+}
+
+/*************
+*************
+end About Us
+**************
+**************/
+/*************
+*************
+Blog Cards
+**************
+**************/
+section.BlogCards .carousel {
+    padding-bottom: 4vw;
+}
+section.BlogCards .flickity-enabled.is-draggable .flickity-viewport{
+    height: 550px !important;
+}
+section.BlogCards .carousel-cell {
+    width: 30vw;
+    max-resolution: 4vw;
+    margin-left: 4vw;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 24px;
+    height: 100%;
+
+}
+
+section.BlogCards .card {
+    border: 1px solid #C5B2A3;
+    border-radius: 0px;
+    height: 100%;
+}
+section.BlogCards .card img.card-img-top{
+    max-height: 250px;
+    min-height: 250px;
+}
+section.BlogCards .card .card-body {
+    text-align: left;
+    padding: 0px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+section.BlogCards .card .card-body .card-title {
+    color: #131313;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 150%;
+}
+
+section.BlogCards .card-body  .card-text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    /* number of lines to show */
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    color: #494949;
+font-size: 20px;
+font-weight: 800;
+line-height: normal;
+}
+section.BlogCards .flickity-page-dots .dot {
+    width: 20px;
+    height: 20px;
+    background-color: rgba(197, 178, 163, 0.9);
+  }
+  
+  section.BlogCards .flickity-page-dots .dot.is-selected {
+    width: 24px;
+    height: 24px;
+    background-color: rgba(197, 178, 163, 1);
+  }
+
+
+/*************
+*************
+end Blog Cards
+
+**************
+**************/
+
+
+/*************
+*************
+Our Partners
+**************
+**************/
+section.Partners {
+    background: #C5B2A3;
+}
+
+section.Partners .card {
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.07);
+    border-radius: none;
+    border: none;
+}
+
+section.Partners .card .card-body .card-title {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 44px;
+    color: #131313;
+    padding-right: 20%;
+}
+
+section.Partners .card .card-body .card-text {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    color: #494949;
+
+}
+
+section.Partners .card .card-body hr,section.BlogCards .card .card-body hr  {
+    background-color: #b7b7b7;
+    border: 1px solid #b7b7b7;
+
+    margin: 15px 0px;
+    width: 100%;
+}
+
+section.Partners .card .card-body a ,section.BlogCards .card .card-body a{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 75px;
+    color: #494949;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+section.Partners .card .card-body a img,section.BlogCards .card .card-body a img {
+    transition: transform .7s ease-in-out;
+    transform: rotate(180deg);
+}
+
+section.Partners .card .card-body a:hover img,section.BlogCards .card .card-body a:hover img {
+    transform: rotate(-180deg);
+}
+
+/*************
+*************
+End Our Partners
+**************
+**************/
+
+
+/*************
+*************
+Documentations
+**************
+**************/
+section.Documentations .IMGPart img, section.ArtSection .IMGPart img, section.Research .IMGPart img {
+    width: 100%;
+}
+
+section.Documentations p.Paragraph, section.Documentations .Services ul li, section.ArtSection p.Paragraph, section.ArtSection .Services ul li, section.Research p.Paragraph, section.Research .Services ul li {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    color: #494949;
+    margin: auto;
+    padding-left: 47px;
+
+}
+
+section.Documentations .TopPart p.Paragraph, section.ArtSection .TopPart p.Paragraph, section.Research .TopPart p.Paragraph {
+    width: 75%;
+    padding-left: 0px;
+    text-align: center;
+
+}
+
+section.Documentations .Values .ParaTitle, section.ArtSection .Values .ParaTitle, section.Research .Values .ParaTitle {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 150%;
+    text-align: left;
+}
+
+section.Documentations .Services ul, section.ArtSection .Services ul, section.Research .Services ul {
+    padding-left: 70px;
+
+}
+
+section.Documentations .Services ul li, section.ArtSection .Services ul li, section.Research .Services ul li {
+    padding-left: 0px;
+}
+
+section.ArtSection .SartLogo {
+    width: 86px !important;
+
+}
+
+section.ArtSection .ServicesLink {
+    font-size: 24px;
+    font-weight: 800;
+    color: #4762B3;
+    text-decoration: none;
+    width: fit-content;
+}
+
+section.ArtSection .ServicesLink img {
+    width: 46px;
+    transition: 1s ease all;
+    transform: rotate(180deg);
+
+}
+
+section.ArtSection .ServicesLink:hover img {
+    transform: rotate(-180deg);
+}
+
+/*************
+*************
+End Documentations
+**************
+**************/
+
+/*************
+*************
+Sponsers
+**************
+**************/
+section.Sponsers {
+    overflow: hidden;
+}
+
+section.Sponsers .Pattern1 {
+    position: absolute;
+    top: -20%;
+    left: -2%;
+    z-index: 0;
+
+}
+
+section.Sponsers .Pattern2 {
+    position: absolute;
+    top: -20%;
+    right: -2%;
+    z-index: 0;
+}
+
+section.Sponsers .SponsersImg {
+    z-index: 100;
+    position: relative;
+}
+
+section.Sponsers .SponserDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.Sponsers .SponserDiv img {
+    width: 50%;
+}
+
+section.Sponsers .SponserDiv.AnovaImg img {
+    width: 80%;
+}
+
+/*************
+*************
+End Sponsers
+**************
+**************/
+
+
+/*************
+*************
+Contact Us
+**************
+**************/
+section.ContactU .formPart h1 {
+    color: #34353A;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 150%;
+}
+
+section.ContactU .formPart h6 {
+    color: #494949;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+section.ContactU .formPart form {
+    width: 75%;
+    margin-top: 30px;
+}
+
+section.ContactU .formPart form label.form-label {
+    color: #131313;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+section.ContactU .formPart form input, section.ContactU .formPart form textarea {
+    padding: 24px 16px;
+    border-radius: 8px;
+    border: 1px solid #DBDBDB;
+    direction: ltr;
+    font-size: 16px;
+    font-weight: 900;
+    box-shadow: none;
+}
+
+/*************
+*************
+End Contact Us
+**************
+**************/
+
+/*************
+*************
+Blog Part
+**************
+**************/
+section.BLogPart p.Paragraph {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: -1px;
+    color: #494949;
+}
+
+section.BLogPart .BlogImg {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/*************
+*************
+End Blog Part
+**************
+**************/
+
+
+/*************
+*************
+Footer
+**************
+**************/
+footer.footer {
+    background-color: black;
+    overflow: hidden;
+}
+
+.container {
+    overflow: hidden;
+}
+
+footer.footer img {
+    width: 150px;
+}
+
+footer.footer a, footer.footer p {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 0.3s ease all;
+}
+
+footer.footer a:hover {
+    color: #dddddd;
+}
+
+footer.footer .socialMedia a {
+    font-size: 30px;
+    color: #C5B2A3;
+
+}
+
+footer.footer .socialMedia a:hover {
+    transform: scale(1.2);
+}
+
+/*************
+*************
+End Footer
+**************
+**************/
+.BackImg {
+    z-index: 0 !important;
+}
+
+h1, h2, p, a {
+    z-index: 1000;
+}
+
+
+/*********************
+*********************
+Animation Top
+*********************
+*********************/
+
+
+.AboutUs .BigImg img, .header .blueRectangle, .header .pinkRectangle, .AboutUs .TwoImageAboutUs .One, .footer .FooterRow p, .footer .FooterRow .socialMedia a, .footer .FooterRow img, .footer .FooterRow a, section.Sponsers .Title, section.Sponsers img, .Values .ParaTitle, .ArtSection .TopPart, .Research .TopPart, .Research .IMGPart, .ArtSection .IMGPart, .Values .Paragraph, .Documentations .Values .Services ul, .Documentations .TopPart, .Documentations .IMGPart, section.Partners, section.Partners .card, .BackImg, .AboutUs .TextRow a, .AboutUs .TextRow p, .AboutUs .TwoImageAboutUs .Two, .AboutUs .TextRow .Title {
+    position: relative;
+    opacity: 0;
+}
+
+header.header .ImagePart, .header .HeaderText {
+    opacity: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+.header .HeaderText img {
+    width: 0px !important;
+    transition: 2s ease all;
+    transition-delay: 2s;
+    overflow: hidden;
+}
+
+header.header.active.again .MiddlePattern img, .header.header.active.again .SidePattern {
+    transform: rotate(-360deg) !important;
+}
+
+.OverflowHidden {
+    overflow: hidden;
+    position: relative;
+}
+
+.header .HeaderText a.ServicesLink {
+    transform: translateX(-150%);
+    transition: 2s ease all !important;
+    transition-delay: 2s !important;
+}
+
+.header.active .HeaderText a.ServicesLink {
+    transform: translateX(0px);
+}
+
+.header .HeaderText h1, .header .HeaderText h2 {
+    transform: translateY(400%);
+    transition: 2s ease all;
+    transition-delay: 2s;
+}
+
+.header.active .HeaderText h2, .header.active .HeaderText h1 {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.header.active .HeaderText img {
+    width: 45% !important;
+}
+
+.header .pinkRectangle {
+    transform: translateX(150%);
+    transition: 2s ease all;
+    opacity: 1 !important;
+}
+
+.header .ImagePart img {
+    transform: translateX(150%);
+    transition: 2s ease all;
+    opacity: 1;
+    transition-delay: 2s;
+
+}
+
+.header.active .pinkRectangle {
+    transform: translateX(0);
+}
+
+.header.active .ImagePart img {
+    transform: translateX(0);
+}
+
+.header .blueRectangle {
+    transform: translateY(-150%);
+    transition: 2s ease all;
+    opacity: 1;
+}
+
+.header.active .blueRectangle {
+    transform: translateY(0);
+}
+
+.Values .ParaTitle {
+    transition: 1.5s ease all;
+    transform: translateX(-150px);
+}
+
+.Values .Sart,section.BlogCards .carousel {
+    transition: 1.5s ease all;
+    transform: translateX(-150px);
+    opacity: 0;
+}
+
+.Values.active .ParaTitle, .Values.active .Paragraph,section.BlogCards.active .carousel , .Values.active .Services ul, .Values.active .Sart {
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+.Values .Services ul {
+    opacity: 0;
+}
+
+.Values .Paragraph, .Values .Services ul {
+    transition: 3.5s ease all;
+    transform: translateX(-150px);
+}
+
+.footer .FooterRow img, .footer .FooterRow a {
+    transform: translateX(-150%);
+    transition: 1.5s ease all;
+}
+
+.footer .FooterRow .socialMedia a, .footer .FooterRow p {
+    transform: translateX(150%);
+    transition: 2.5s ease all;
+}
+
+.footer.active .FooterRow img, .footer.active .FooterRow a, .footer.active .FooterRow .socialMedia a, .footer.active .FooterRow p {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+section.Partners {
+    transform: translateY(-150px);
+    transition: 0.5s ease all;
+}
+
+.Documentations .TopPart, .Documentations .IMGPart, .ArtSection .TopPart, .ArtSection .IMGPart, .Research .TopPart, .Research .IMGPart {
+    transition: 1.5s ease all;
+}
+
+.Documentations .TopPart {
+    transform: translateX(150%);
+
+}
+
+.ArtSection .TopPart, .Research .TopPart {
+    transform: translateY(150%);
+}
+
+.ArtSection.active .TopPart, .Research.active .TopPart {
+    transform: translateX(0);
+    opacity: 1;
+
+}
+
+.ArtSection .IMGPart {
+    transform: translateX(150%);
+
+}
+
+.Documentations .IMGPart, .Research .IMGPart {
+    transform: translateX(-150%);
+
+}
+
+.Documentations.active .TopPart, .Documentations.active .IMGPart, .ArtSection.active .IMGPart, .Research.active .IMGPart {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+
+section.Partners .card {
+    transform: translateY(150%);
+    transition: 2s ease all;
+
+}
+
+section.Partners.active .card {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+section.Partners.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.BigImg img {
+    transform: translateX(150%);
+    transition: 3.5s ease all;
+}
+
+.header .MiddlePattern.BackImg, .header .SidePattern.BackImg {
+    opacity: 1;
+}
+
+.header .MiddlePattern img, .header .SidePattern {
+    transition: 3s ease all;
+}
+
+.header.active .MiddlePattern img, .header.active .SidePattern {
+    transform: rotate(-180deg);
+    opacity: 1;
+}
+
+.active .BigImg img, .active .TwoImageAboutUs .One {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.TwoImageAboutUs .One {
+    transform: translateX(-150%);
+    transition: 3s ease all;
+
+}
+
+section.AboutUs a.ServicesLink {
+    transform: translateY(150%);
+    transition: 5s ease all;
+    opacity: 0;
+}
+
+.TwoImageAboutUs .Two {
+    transform: translateY(150%);
+    transition: 4s ease all;
+}
+
+.active .TwoImageAboutUs .Two, .AboutUs.active .TextRow a {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.AboutUs .TextRow .Title {
+    transform: translate(150%, 150%);
+    transition: 4s ease all;
+}
+
+.AboutUs.active .TextRow .Title {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.AboutUs .TextRow p {
+    transform: translate(150%, 150%);
+    opacity: 0;
+    transition: 5s ease all;
+}
+
+.AboutUs.active .TextRow p {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+section.Sponsers .Title, section.Sponsers img {
+    transform: translateY(150%);
+
+}
+
+section.Sponsers .Title {
+    transition: 1s ease all;
+}
+
+section.Sponsers img {
+    transition: 2s ease all;
+}
+
+section.Sponsers.active .Title, section.Sponsers.active img {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.NoBigAnim {
+    transform: translateX(0px) !important;
+    opacity: 1;
+    transition: none;
+}
+
+/*********************
+*********************
+End Top Animation
+*********************
+*********************/
+
+/*********************
+*********************
+End Top Animation
+*********************
+*********************/
+
+
+/***************************************************************************************
+****************************************************************************************
+*********************************************** Media***********************************
+****************************************************************************************
+****************************************************************************************/
+@media (min-width: 1400px) {
+
+    header.header .blueRectangle {
+        right: 14%;
+        width: 200px;
+    }
+
+    header.header .ImagePart img {
+        width: 75%;
+    }
+}
+
+@media (max-width: 1400px) {
+    header.header .ImagePart img {
+        width: 70%;
+    }
+
+    header.header .ImagePart .pinkRectangle {
+        background: #C5B2A3;
+        position: absolute;
+        width: 60%;
+        height: 130px;
+        bottom: 4%;
+
+
+    }
+
+    header.header .blueRectangle {
+        right: 15%;
+        width: 200px;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    header.header .blueRectangle {
+        display: none;
+    }
+    section.BlogCards .card img.card-img-top{
+        max-height: 200px;
+    min-height: 200px;
+    }
+    section.BlogCards .card .card-body .card-title{
+        font-size: 29px;
+    }
+    section.BlogCards .card-body .card-text{
+        font-size: 18px;
+    }
+    section.BlogCards .flickity-enabled.is-draggable .flickity-viewport{
+        height: 500px !important;
+    }
+    div#navbarNavDropdown {
+        justify-content: center !important;
+    }
+
+    header.header .ImagePart img {
+        z-index: 100;
+    }
+
+    nav.navbar .form-select {
+        z-index: 20000;
+    }
+
+    header.header {
+        height: unset;
+    }
+
+    header.header .HeaderText {
+        align-items: center !important;
+    }
+
+    header.header .HeaderText h1, header.header .HeaderText h2 {
+        text-align: center;
+    }
+
+    section.AboutUs p {
+        width: 75% !important;
+    }
+
+    section.AboutUs .TwoImageAboutUs {
+        flex-direction: row !important;
+        margin-bottom: 25px;
+    }
+
+    section.AboutUs .TwoImageAboutUs div {
+        width: 50%;
+    }
+
+    section.AboutUs .TwoImageAboutUs div img {
+        width: 97% !important;
+    }
+
+    section.AboutUs .TwoImageAboutUs div.secondImg img {
+        float: right;
+    }
+}
+
+@media (max-width: 991px) {
+    nav.navbar .navbar-collapse .navbar-nav .nav-link {
+        font-size: 30px;
+        margin-bottom: 40px;
+        margin-right: 0px;
+    }
+    section.BlogCards .card .card-body a {
+        line-height: 40px;
+    }
+    section.BlogCards .carousel-cell{
+        width: 35vw;
+    }
+    .navbar-nav {
+
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav.navbar .navbar-collapse .navbar-nav .nav-link.active .roundedActiveLink, nav.navbar .navbar-collapse .navbar-nav .nav-link:hover .roundedActiveLink {
+        width: 15px;
+        height: 15px;
+        bottom: -50%;
+    }
+
+    nav.navbar .sideNavButtons, nav.navbar .navbar-brand {
+        z-index: 10000;
+    }
+
+    nav.navbar .navbar-collapse {
+        position: fixed;
+        top: 50%;
+        right: 50%;
+        background-color: black;
+        transform: translate(50%, -50%);
+        width: 100vw;
+    }
+
+    section.Documentations .IMGPart img, section.ArtSection .IMGPart img, section.Research .IMGPart img {
+        width: 75%;
+    }
+
+    footer.footer .FooterRow {
+        flex-direction: column;
+    }
+
+    footer.footer .footerItem {
+        margin-bottom: 10px;
+    }
+
+    .ContactUsImg img {
+        width: 50% !important;
+    }
+}
+
+@media (max-width: 767px) {
+    nav.navbar .navbar-collapse .navbar-nav .nav-link {
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    section.AboutUs .Title, section.Sponsers .Title, section.BlogCards .Title {
+        font-size: 45px;
+    }
+    section.BlogCards .carousel-cell{
+        width: 45vw;
+    }
+    section.BlogCards .card .card-body a {
+        line-height: 30px;
+    }
+    section.BlogCards .card .card-body a img{
+        width: 50px;
+    }
+    section.BlogCards .flickity-enabled.is-draggable .flickity-viewport{
+        height: 452px !important;
+    }
+    section.BlogCards .card img.card-img-top {
+        max-height: 170px;
+        min-height: 170px;
+    }
+    section.ContactU .formPart form {
+        width: 90%;
+    }
+
+    header.header .HeaderText h1 {
+        font-size: 41px;
+    }
+
+    section.AboutUs p {
+        width: 100% !important;
+    }
+
+    section.Partners .card .card-body .card-text {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    section.Partners .card .card-body a {
+        font-size: 18px;
+    }
+
+    section.Partners .card .card-body .card-title {
+        font-size: 30px;
+    }
+
+    section.Partners .card .card-body hr {
+        margin: 5px 0px;
+    }
+
+    section.Documentations .IMGPart img, section.ArtSection .IMGPart img, section.Research .IMGPart img {
+        width: 50%;
+    }
+
+    section.Partners .card .card-body a img {
+        width: 40px;
+    }
+
+    .LogoSocialFooter {
+        flex-direction: column;
+    }
+
+    .socialMedia {
+        margin-left: 0 !important;
+    }
+}
+
+
+@media (max-width: 575px) {
+    header.header .HeaderText h1 {
+        font-size: 37px;
+        line-height: 50px;
+    }
+    section.BlogCards .carousel-cell {
+        width: 52vw;
+    }
+    section.BlogCards .card .card-body .card-title {
+        font-size: 24px;
+    }
+    section.BlogCards .card-body .card-text {
+        font-size: 16px;
+    }
+    section.BlogCards .flickity-enabled.is-draggable .flickity-viewport {
+        height: 400px !important;
+    }
+    section.BlogCards .card .card-body a{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    section.BlogCards .card .card-body a img {
+        width: 40px;
+    }
+    
+    section.AboutUs .Title, section.Sponsers .Title, section.BlogCards .Title {
+        font-size: 40px;
+    }
+section.BlogCards .flickity-page-dots .dot.is-selected {
+    width: 20px;
+    height: 20px;
+}
+section.BlogCards .flickity-page-dots .dot{
+    width: 16px;
+    height: 16px;
+}
+    section.BlogCards .card img.card-img-top {
+        max-height: 150px;
+        min-height: 150px;
+    }
+    header.header .HeaderText h2 {
+        font-size: 18px;
+    }
+
+    section.AboutUs .Title, section.Sponsers .Title {
+        font-size: 40px;
+    }
+
+    section.AboutUs p, section.Documentations p.Paragraph, section.Documentations .Services ul li, section.ArtSection p.Paragraph, section.ArtSection .Services ul li, section.Research p.Paragraph, section.Research .Services ul li {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    section.AboutUs a.ServicesLink, section.AboutUs .ImgRow {
+        margin-top: 0px !important;
+    }
+
+    section.Documentations .Values .ParaTitle, section.ArtSection .Values .ParaTitle, section.Research .Values .ParaTitle {
+        font-size: 25px;
+    }
+
+    nav.navbar .navbar-collapse .navbar-nav .nav-link {
+        font-size: 25px;
+        margin-bottom: 45px;
+    }
+
+    section.Partners .card .card-body a {
+        font-size: 24px;
+    }
+
+    section.Partners .card .card-body .card-text {
+        font-size: 17px;
+        line-height: 22px;
+    }
+
+    section.Partners .card .card-body .card-title {
+        font-size: 30px;
+    }
+
+    section.Partners .card .card-body a img {
+        width: unset;
+    }
+
+    section.Partners .card {
+        width: 75%;
+        margin: auto;
+    }
+}
